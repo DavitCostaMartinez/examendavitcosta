@@ -47,7 +47,7 @@ class EnanaTest extends TestCase {
         $enana->heridaLeve();
         $enana->pocima();
         $this->assertEquals("viva", $enana->getSituacion());
-        $this->assertLessThan(0, $enana->getPuntosVida());
+        $this->assertGreaterThan(0, $enana->getPuntosVida());
     }
 
     public function testPocimaNoRevive() {
