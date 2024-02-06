@@ -38,6 +38,9 @@ class Enana
         if($this->puntosVida>0){
             $this->situacion="viva";
         }
+        if($this->situacion="limbo"){
+            $this->puntosVida=0;
+        }
     }
 
     public function pocimaExtra(){
