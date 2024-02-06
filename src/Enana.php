@@ -36,7 +36,7 @@ class Enana
         #Solo pocimaExtra puede rescatarla del limbo.
         $this->puntosVida+=20;
 
-        if($this->situacion="limbo"){
+        if($this->situacion=="limbo"){
             $this->puntosVida=0;
         }else{
             if($this->puntosVida>0){
